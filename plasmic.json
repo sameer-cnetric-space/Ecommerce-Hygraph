@@ -1,0 +1,143 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "22U3ZXm4dE59qEW488gxzU",
+      "projectApiToken": "6Bn8h6fjzGhmvB6g0gGPENLIxLtXZv8TCkr4yk9u8g3DP444nsnlSeTeX9w8LMgHNSYNJeyihR9KlT9gnlw",
+      "projectName": "plasmic-graphcms",
+      "version": "0.16.0",
+      "cssFilePath": "plasmic/plasmic_graphcms/plasmic_plasmic_graphcms.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_graphcms/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "8sYtOZawA08",
+          "name": "GraphCMSFetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-graphcms"
+        },
+        {
+          "id": "_3Kx5FMtA8n",
+          "name": "GraphCMSField",
+          "componentImportPath": "@plasmicpkgs/plasmic-graphcms"
+        },
+        {
+          "id": "hNB_eBOLhAQ",
+          "name": "GraphCMSCredentialsProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-graphcms"
+        }
+      ]
+    },
+    {
+      "projectId": "tFCdB9RniJYEQSN35DC9AW",
+      "projectApiToken": "AUma0iiVTZjnVdKiLfKU7Ih3TcOHgV89cR4gKR9Fq5sD7oDguscSZGp0JeWoPXT33oCGV6uJYrrj35b2vQg",
+      "projectName": "Ecommerce Hygraph",
+      "version": "latest",
+      "cssFilePath": "plasmic/ecommerce_hygraph/plasmic_ecommerce_hygraph.module.css",
+      "components": [
+        {
+          "id": "6mDvM-IJho8I",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "tFCdB9RniJYEQSN35DC9AW",
+          "renderModuleFilePath": "plasmic/ecommerce_hygraph/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/ecommerce_hygraph/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wDCF5TdzdC",
+          "name": "Pdp",
+          "type": "managed",
+          "projectId": "tFCdB9RniJYEQSN35DC9AW",
+          "renderModuleFilePath": "plasmic/ecommerce_hygraph/PlasmicPdp.jsx",
+          "importSpec": {
+            "modulePath": "Pdp.jsx"
+          },
+          "cssFilePath": "plasmic/ecommerce_hygraph/PlasmicPdp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "bN83BFeysHB",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "tFCdB9RniJYEQSN35DC9AW",
+          "renderModuleFilePath": "plasmic/ecommerce_hygraph/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/ecommerce_hygraph/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "VMTaClL0vvr",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/ecommerce_hygraph/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "-bnKd_wqi8p",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/ecommerce_hygraph/icons/PlasmicIcon__Icon.jsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/ecommerce_hygraph/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "FWuhWxiIit0Ai",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "h8vhbOd3JhUDr",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Xk1UbFydighY1",
+        "name": "Screen",
+        "projectId": "tFCdB9RniJYEQSN35DC9AW",
+        "contextFilePath": "plasmic/ecommerce_hygraph/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.274",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.274/dist/plasmic.schema.json"
+}
